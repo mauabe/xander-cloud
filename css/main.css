@@ -13,7 +13,15 @@
   background-size: cover;
   background-position: center;
   min-height: 500px;
-  color: #fff ; 
+  color: #fff;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 280px;
+  color: #fff;
 }
 
 .main-header .showcase {
@@ -42,7 +50,6 @@
   border-bottom: #333 solid 5px;
   border-top: #333 solid 5px;
   min-height: 140px;
-
 }
 .section-podcast a {
   margin-top: 30px;
@@ -56,6 +63,12 @@
   font-size: 20px !important;
 }
 
-@media(man-width: 500px){
-  .section-developers, .section-podcast {min-height: 240px;}
+.tabs .indicator {
+  background-color: #555 !important;
+}
+@media (man-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
 }
