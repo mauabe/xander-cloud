@@ -1,5 +1,5 @@
 .primary-overlay {
-  background: rgba(226, 186, 111, 0.7);
+  background: rgba(111, 119, 226, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -12,14 +12,12 @@
   background: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 500px;
   color: #fff ; 
-
 }
 
 .main-header .showcase {
-  padding-top: 100px;
-
+  padding-top: 80px;
 }
 
 .active-link {
@@ -34,4 +32,30 @@
   border-top: #333 solid 5px;
   border-bottom: #333 solid 5px;
   min-height: 180px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: #333 solid 5px;
+  border-top: #333 solid 5px;
+  min-height: 140px;
+
+}
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(111, 119, 226, 0.9);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+@media(man-width: 500px){
+  .section-developers, .section-podcast {min-height: 240px;}
 }
