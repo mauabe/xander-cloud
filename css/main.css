@@ -63,15 +63,62 @@
   font-size: 20px !important;
 }
 
-.circle .responsive-img {
-  max-width: 100px !important;
-  height: 100px !important;
-  vertical-align: text-bottom !important;
+
+.img-profile {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.img-profile img {
+  width: auto;
+  height: 100%;
+  margin-left: -80px;
 }
 
 .tabs .indicator {
   background-color: rgb(241, 144, 33) !important;
 }
+
+.input-field {
+  color: grey !important;
+}
+  /* label color */
+  .input-field label {
+    color: grey;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color:grey;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: grey;
+  }
+
+.btn-extend {
+  display: block;
+  width: 100%
+}
+
 @media (man-width: 500px) {
   .section-developers,
   .section-podcast {
