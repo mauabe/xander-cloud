@@ -6,8 +6,11 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
     <script src="https://use.fontawesome.com/97dcebfbbc.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+
+
+
     <!--Import materialize.css-->
     <link
       type="text/css"
@@ -33,8 +36,8 @@
               <i class="fa fa-bars"></i>
             </a>
             <ul class="right hide-on-med-and-down">
-              <li><a class="active-link" href="index.html">Home</a></li>
-              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="solutions.html" class="active-link">Solutions</a></li>
               <li><a href="signup.html">Sign Up</a></li>
               <li><a href="#login-modal" class="btn orange modal-trigger">Login</a></li>
               <li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
@@ -83,39 +86,40 @@
     </header>
 
     <!-- SECTION: SOLUTIONS ABOUT -->
-    <section class="section section-slutions-about">
+    <section class="section section-solutions-about">
       <div class="container">
         <div class="row">
-          <div class="col s12 m5">
-            <h2>What We Do</h2>
+          <div class="col s12 m3">
+            <h4>What We Do...</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptates voluptas at maiores quas iste porro commodi accusamus fuga asperiores.</p>
           </div>
-          <div class="col s12 m6 offset-m1">
+          <div class="col s12 m8 offset-m1">
             <div class="row">
               <ul class="tabs">
                 <li class="tab col s4">
-                  <a href="tab1" class='active'>Cloud hosting</a>
+                  <a href="#tab1" class='active orange-text'>Hosting</a>
                 </li>
                 <li class="tab col s4">
-                  <la href="tab2">Coud Storage</a>
+                  <a href="#tab2" class='orange-text'>Storage</a>
                 </li>
                 <li class="tab col s4">
-                  <a href="tab3">Cloud Database</a>
+                  <a href="#tab3" class='orange-text'>Database</a>
                 </li>
-
               </ul>
             </div>
-            <div id="tab1" class="col s12">
-              <H5>Could Hosting</H5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores eligendi suscipit qui eum quasi repellendus incidunt officiis dolorum cum.</p>
-            </div>
-            <div id="tab2" class="col s12">
-              <h5>Cloud Storage</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quis corporis natus in ipsam tempora illo possimus porro eveniet commodi.</p>
-            </div>
-            <div id="tab3" class="col s12">
-              <h5>Cloud rain</h5>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eaque. Ea quaerat aliquam temporibus assumenda eligendi aperiam, corporis aliquid distinctio.</p>
+            <div class="row">
+              <div id="tab1" class="col s12">
+                <H5>Cloud Hosting</H5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores eligendi suscipit qui eum quasi repellendus incidunt officiis dolorum cum.</p>
+              </div>
+              <div id="tab2" class="col s12">
+                <h5>Cloud Storage</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quis corporis natus in ipsam tempora illo possimus porro eveniet commodi.</p>
+              </div>
+              <div id="tab3" class="col s12">
+                <h5>Cloud Database</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, eaque. Ea quaerat aliquam temporibus assumenda eligendi aperiam, corporis aliquid distinctio.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -126,19 +130,80 @@
 
 <!-- SECTION : ABOUT -->
     <section class="section section-about grey lighten-4">
-      <div class="conteiner">
+      <div class="container">
         <div class="row">
           <div class="col s12 m6">
-            <h3><span class="orange-text text-darken-1">About Us</span></h3>
-            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eum qui veniam. Laborum, ab exercitationem veniam modi ad dignissimos iure.</p> 
+            <h4><span class="orange-text text-darken-2">About Us</span></h4>
+            <p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eum qui veniam. Laborum, ab exercitationem modi ad dignissimos iure.</p> 
           </div>
           <div class="col s12 m6">
-            <img src='img/tech.jpg' alt='tech' class='circle responsive-img'>
+            <img src='img/network.jpg' alt='network' class='circle responsive-img valign-center'>
           </div>
         </div>
       </div>
     </section>
 
+<!-- SECTION: FEATURES -->
+
+<div class="section section-features grey lighten-3">
+  <div class="container">
+    <h4 class="orange-text text-darken-3 center">Powerful and Innovative</h4>
+    <h6 class="grey-text darken-2 center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero provident quia?</h6>
+    <br><br>
+    <!-- row1 -->
+    <div class="row">
+      <div class="col s12 m4">
+        <h5>
+          <i class="fa fa-user"> Unlimited Users</i>
+        </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>
+      <div class="col s12 m4">
+        <h5>
+          <i class="fa fa-database"> Scalable Data</i>
+        </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>
+      <div class="col s12 m4">
+        <h5>
+            <i class="fa fa-plus"> Data Analitics</i>
+          </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>  
+    </div>
+
+    <!-- row2 -->
+    <div class="row">
+      <div class="col s12 m4">
+        <h5>
+          <i class="fa fa-github"> Github Integration</i>
+        </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>
+      <div class="col s12 m4">
+        <h5>
+          <i class="fa fa-plus"> Add Ons</i>
+        </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>
+      <div class="col s12 m4">
+        <h5>
+            <i class="fa fa-database"> Smart Storage</i>
+        </h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam dignissimos vel aliquam necessitatibus facilis. Amet sunt corporis voluptas veniam.</p>
+      </div>  
+    </div>
+    <div class="center">
+      <a href="signup.html" class="btn btn-large grey">Sign Up</a>
+      <br><br>
+      <h5>
+        <span class="orange-text text-lighten-1">Have Questions?</span> Contact our sales team
+      </h5>
+      <p>sales@xander-cloud.com</p>
+    </div>
+
+  </div>
+</div>
 
 <!-- FOOTER -->
 <footer class="page-footer orange">
@@ -204,6 +269,7 @@
         $('.carousel.carousel-slider').carousel({fullWidth: true});
         $('.button-collapse').sideNav(); 
         $('.modal').modal();
+        // $('.tabs').tabs();
 
       });
     </script>

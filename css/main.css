@@ -9,18 +9,18 @@
 }
 
 .main-header {
-  background: url(../img/background.jpg);
+  background: url(../img/nightsky.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  min-height: 600px;
   color: #fff;
 }
 
 .main-header-inner {
-  background: url(../img/background.jpg);
+  background: url(../img/nightsky.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 280px;
+  min-height: 300px;
   color: #fff;
 }
 
@@ -63,8 +63,14 @@
   font-size: 20px !important;
 }
 
+.circle .responsive-img {
+  max-width: 100px !important;
+  height: 100px !important;
+  vertical-align: text-bottom !important;
+}
+
 .tabs .indicator {
-  background-color: #555 !important;
+  background-color: rgb(241, 144, 33) !important;
 }
 @media (man-width: 500px) {
   .section-developers,
